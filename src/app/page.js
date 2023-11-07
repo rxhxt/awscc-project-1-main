@@ -7,6 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div id="mainHeader">
+        
         <Image src={logo} width={75} height={60}
         style={{
           position: 'absolute',
