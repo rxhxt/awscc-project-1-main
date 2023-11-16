@@ -21,6 +21,8 @@ export default function Home() {
       <div className={styles.navigation}>
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
+        <Link href="/rekognition">Rekognition</Link>
+
       </div>
     </main>
   )

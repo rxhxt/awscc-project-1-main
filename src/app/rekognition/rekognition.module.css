@@ -1,0 +1,137 @@
+.main {
+    min-height: 100vh;
+    background-color: #161B33;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: inherit;
+    /* You can change the background color to your preference */
+    color: white;
+    /* You can change the text color to your preference */
+}
+
+.navImage {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+.navImage:hover {
+    text-decoration: underline;
+}
+
+.navDiv {
+    display: flex;
+}
+
+
+
+.navTitle {
+    padding-top: 2px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.navLink {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.mainBody {
+    display: grid;
+    grid-template-columns: 40% 55%;
+    justify-content: space-evenly;
+    height: 60vh;
+    margin-top: 5%;
+}
+
+.bodyLeftBlob {
+
+    border-radius: 40px;
+    background-color: #A69CAC;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.blobText {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000;
+
+}
+
+.bodyRightBlob {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 40px;
+    background-color: #A69CAC;
+}
+
+.uploadBtn {
+
+    color: white;
+    background-color: #474973;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    border: none;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 3%;
+}
+
+.previewImage {
+    margin: 5%;
+    object-fit: contain;
+    /* or use 'contain' if you want the whole image to be visible */
+}
+
+.fileInputLabel {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    /* Choose a color that matches your design */
+    border-radius: 5px;
+    margin-right: 5%;
+    color: white;
+    background-color: #474973;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0em;
+}
+
+.fileInput {
+    display: none;
+    /* Hide the default file input */
+}
+
+.outputText{
+    font-family: monospace;
+    font-size: large;
+    padding: 2%;
+}
